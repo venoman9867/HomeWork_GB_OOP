@@ -1,27 +1,26 @@
 package homework_1;
 
-public class Category {
-    private String name;
-    Product[] products;
+import java.util.LinkedList;
+import java.util.List;
 
-    public Category(String name, Product[] products) {
-        this.name = name;
-        this.products = products;
+public class Category extends Shop implements Actions{
+    List<Product> list=new LinkedList<>();
+    @Override
+    public void addItem(Product product) {
+        list.add(product);
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public void showList() {
+        list.forEach(x->System.out.println(x+" "));
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public void remove(Product product) {
+        list.remove(product);
     }
 
-    public Product[] getProducts() {
-        return products;
-    }
-
-    public void setProducts(Product[] products) {
-        this.products = products;
+    public List<Product> getList() {
+        return list;
     }
 }

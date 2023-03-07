@@ -1,17 +1,12 @@
 package homework_1;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class Basket {
-    private Product[] boughtProducts;
-
-    public Basket(Product[] boughtProducts) {
-        this.boughtProducts = boughtProducts;
-    }
-
-    public Product[] getBoughtProducts() {
-        return boughtProducts;
-    }
-
-    public void setBoughtProducts(Product[] boughtProducts) {
-        this.boughtProducts = boughtProducts;
+    private List<Product> list=new LinkedList<>();
+    public void addItem(Product product,Category category){
+        list.add(product);
+        category.remove(product);
     }
 }

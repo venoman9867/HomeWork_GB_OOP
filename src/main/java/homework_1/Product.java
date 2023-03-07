@@ -1,6 +1,6 @@
 package homework_1;
 
-public class Product {
+public class Product extends Category{
     private String name;
     private float price;
     private float rate;

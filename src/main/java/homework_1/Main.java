@@ -1,9 +1,5 @@
 package homework_1;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         Product banana=new Product("Банан",45.4f,5.0f);
@@ -12,28 +8,26 @@ public class Main {
         Product pickle=new Product("Огурец",15.0f,4.8f);
         Product cow=new Product("Говядина", 108.0f,5.0f);
         Product sheep=new Product("Баранина", 250.8f,5.0f);
-        Category fruits=new Category("Фрукты",new Product[]{banana,apple});
-        Category vegetables=new Category("Овощи",new Product[]{tomato,pickle});
-        Category meats=new Category("Мясо", new Product[]{cow,sheep});
-        List<Product> allProducts=new LinkedList<>();
-        allProducts.add(banana);
-        allProducts.add(apple);
-        allProducts.add(tomato);
-        allProducts.add(pickle);
-        allProducts.add(cow);
-        allProducts.add(sheep);
-        System.out.println("Список всех продуктов магазина: ");
-        allProducts.forEach(x->System.out.print(x+" "));
-        Basket basket1=new Basket(new Product[]{banana,tomato,pickle});
-        allProducts.remove(banana);
-        allProducts.remove(tomato);
-        allProducts.remove(pickle);
-        Basket basket2=new Basket(new Product[]{cow,sheep});
+        Category fruits=new Category();
+        fruits.addItem(banana);
+        fruits.addItem(apple);
+        Category vegetables=new Category();
+        vegetables.addItem(tomato);
+        vegetables.addItem(pickle);
+        Category meat=new Category();
+        meat.addItem(cow);
+        meat.addItem(sheep);
+        System.out.println("Все продукты до покупки: ");
+        Shop.showProducts(fruits,vegetables,meat);
+        Basket basket1=new Basket();
+        basket1.addItem(apple,fruits);
+        basket1.addItem(pickle,vegetables);
         User user1=new User("Alex","123",basket1);
+        Basket basket2=new Basket();
+        basket2.addItem(cow,meat);
+        basket2.addItem(sheep,meat);
         User user2=new User("Nastya","321",basket2);
-        allProducts.remove(cow);
-        allProducts.remove(sheep);
-        System.out.println("\nЧто осталось в магазине: ");
-        allProducts.forEach(x->System.out.println(x+" "));
+        System.out.println("Все продукты после покупки: ");
+        Shop.showProducts(fruits,vegetables,meat);
     }
 }
