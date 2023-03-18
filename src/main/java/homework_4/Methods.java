@@ -9,5 +9,5 @@ public interface Methods<T extends Number> {
 
     T multiply(List<T> items);
 
-    T toBinary(List<T> items);
+    List<T> toBinary(List<T> items);
 }

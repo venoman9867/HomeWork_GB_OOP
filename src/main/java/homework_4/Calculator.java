@@ -29,9 +29,9 @@ public class Calculator implements Methods<Number> {
         }
         return result;
     }
-
+//пока не придумал доделаю отпишу :)
     @Override
-    public Number toBinary(List<Number> items) {
+    public List<Number> toBinary(List<Number> items) {
         return null;
     }
 
