@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d6cb38-6f19-4efe-93aa-29f722e715e6" name="Changes" comment="commmit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/AbstractGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/EnglishGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/GameStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/NumberGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_3/RussianGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/english.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/russian.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/homework_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.homework_4.Main">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_3.Application" />
       <module name="HomeWork_GB_OOP" />
@@ -113,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.Main" />
+      <module name="HomeWork_GB_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework_4.Main" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework_1.Main" />
@@ -150,6 +156,8 @@
       <workItem from="1678966046094" duration="136000" />
       <workItem from="1678966226183" duration="616000" />
       <workItem from="1678970335807" duration="2688000" />
+      <workItem from="1678973035582" duration="114000" />
+      <workItem from="1679153889476" duration="5762000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <created>1678197183615</created>
@@ -165,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678216230003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commmit">
+      <created>1678973142174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678973142174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
