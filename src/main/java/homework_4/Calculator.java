@@ -1,5 +1,6 @@
 package homework_4;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class Calculator implements Methods<Number> {
@@ -29,10 +30,20 @@ public class Calculator implements Methods<Number> {
         }
         return result;
     }
-//пока не придумал доделаю отпишу :)
+
     @Override
-    public List<Number> toBinary(List<Number> items) {
-        return null;
+    public List<String> toBinary(List<Object> items) {
+        List<String> result = new LinkedList<>();
+        for (Object value : items) {
+            int number;
+            if (value.getClass() == String.class) {
+                number = Integer.parseInt((String) value);
+                result.add(Integer.toBinaryString(number));
+            } else {
+                result.add(Integer.toBinaryString((int) value));
+            }
+        }
+        return result;
     }
 
 }

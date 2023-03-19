@@ -8,6 +8,5 @@ public interface Methods<T extends Number> {
     T divide(List<T> items);
 
     T multiply(List<T> items);
-
-    List<T> toBinary(List<T> items);
+    List<String> toBinary(List<Object> items);
 }
