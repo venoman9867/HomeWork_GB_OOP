@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d6cb38-6f19-4efe-93aa-29f722e715e6" name="Changes" comment="commmit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/StudyGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/StudyGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +63,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework_5" />
       <recent name="homework_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/homework_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework_4.Main">
+  <component name="RunManager" selected="Application.homework_5.Main">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_3.Application" />
       <module name="HomeWork_GB_OOP" />
@@ -118,8 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework_5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_5.Main" />
+      <module name="HomeWork_GB_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework_5.Main" />
         <item itemvalue="Application.homework_4.Main" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Main" />
@@ -160,7 +179,12 @@
       <workItem from="1679153889476" duration="6113000" />
       <workItem from="1679162644451" duration="55000" />
       <workItem from="1679165363130" duration="1280000" />
-      <workItem from="1679220811530" duration="598000" />
+      <workItem from="1679220811530" duration="701000" />
+      <workItem from="1679405881496" duration="30000" />
+      <workItem from="1679836106570" duration="2885000" />
+      <workItem from="1679846739987" duration="5000" />
+      <workItem from="1679929598503" duration="3129000" />
+      <workItem from="1679934796902" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <created>1678197183615</created>
@@ -197,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679162657570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commmit">
+      <created>1679221532918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679221532918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
