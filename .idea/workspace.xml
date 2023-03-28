@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d6cb38-6f19-4efe-93aa-29f722e715e6" name="Changes" comment="commmit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/StudyGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/StudyGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/StudyGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/StudyGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/model/StudentActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/model/TeacherActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_6/model/Прочти меня!" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,28 +52,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kurkinaleksandr/IdeaProjects/HomeWork_GB_OOP/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="homework_5" />
       <recent name="homework_3" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/homework_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework_5.Main">
+  <component name="RunManager" selected="Application.homework_6.Main">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_3.Application" />
       <module name="HomeWork_GB_OOP" />
@@ -90,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_1.Main" />
-      <module name="HomeWork_GB_OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework_6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_6.Main" />
+      <module name="HomeWork_GB_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework_6.Main" />
         <item itemvalue="Application.homework_5.Main" />
         <item itemvalue="Application.homework_4.Main" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.homework_1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +191,9 @@
       <workItem from="1679836106570" duration="2885000" />
       <workItem from="1679846739987" duration="5000" />
       <workItem from="1679929598503" duration="3129000" />
-      <workItem from="1679934796902" duration="701000" />
+      <workItem from="1679934796902" duration="823000" />
+      <workItem from="1679994490453" duration="48000" />
+      <workItem from="1679994541944" duration="2052000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <created>1678197183615</created>
@@ -228,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679221532918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commmit">
+      <created>1679935561878</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679935561878</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
