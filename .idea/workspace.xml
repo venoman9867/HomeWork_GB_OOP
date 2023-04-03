@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d6cb38-6f19-4efe-93aa-29f722e715e6" name="Changes" comment="commmit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/AddContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/DivideContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/MultiplyContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -188,7 +194,8 @@
       <workItem from="1679994541944" duration="2071000" />
       <workItem from="1680260424375" duration="184000" />
       <workItem from="1680343563032" duration="19000" />
-      <workItem from="1680448292781" duration="1058000" />
+      <workItem from="1680448292781" duration="1070000" />
+      <workItem from="1680529134711" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <created>1678197183615</created>
@@ -246,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679996719001</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commmit">
+      <created>1680449513927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680449513927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

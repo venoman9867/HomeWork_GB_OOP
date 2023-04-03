@@ -26,13 +26,13 @@ public class Main{
                 a = input.nextFloat();
                 System.out.println("Введите b:");
                 b = input.nextFloat();
-                complex1 = new ComplexNumber(a, b);
+                complex1 = new Add(a, b);
                 System.out.println("Введите c:");
                 a = input.nextFloat();
                 System.out.println("Введите d:");
                 b = input.nextFloat();
-                complex2 = new ComplexNumber(a, b);
-                complex3 = complex1.add(complex2);
+                complex2 = new Add(a, b);
+                complex3 =  ((Add) complex1).add(complex2);
                 System.out.println("Ответ: " + complex3.toString());
             }
             if(choice == 2){
@@ -42,13 +42,13 @@ public class Main{
                 a = input.nextFloat();
                 System.out.println("Введите b:");
                 b = input.nextFloat();
-                complex1 = new ComplexNumber(a, b);
+                complex1 = new Multiply(a, b);
                 System.out.println("Введите c:");
                 a = input.nextFloat();
                 System.out.println("Введите d:");
                 b = input.nextFloat();
-                complex2 = new ComplexNumber(a, b);
-                complex3 = complex1.multiply(complex2);
+                complex2 = new Multiply(a, b);
+                complex3 = ((Multiply) complex1).multiply(complex2);
                 System.out.println("Ответ: " + complex3.toString());
             }
             //Division
@@ -59,13 +59,13 @@ public class Main{
                 a = input.nextFloat();
                 System.out.println("Введите b:");
                 b = input.nextFloat();
-                complex1 = new ComplexNumber(a, b);
+                complex1 = new Divide(a, b);
                 System.out.println("Введите c:");
                 a = input.nextFloat();
                 System.out.println("Введите d:");
                 b = input.nextFloat();
-                complex2 = new ComplexNumber(a, b);
-                complex3 = complex1.divide(complex2);
+                complex2 = new Divide(a, b);
+                complex3 = ((Divide) complex1).divide(complex2);
                 System.out.println("Ответ: " + complex3.toString());
             }
         }
